@@ -48,6 +48,8 @@ fun Map() {
 @Composable
 fun MapPreview() {
     PetlyTheme {
-        Map()
+        Scaffold {
+            Map()
+        }
     }
 }
